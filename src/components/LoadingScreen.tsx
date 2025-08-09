@@ -52,7 +52,7 @@ const LoadingScreen: React.FC = () => {
         }}
       >
         <motion.img
-          src="/images/foodball.png"
+          src= {process.env.PUBLIC_URL + '/images/football.png'}
           alt="Football"
           style={{
             width: '100%',

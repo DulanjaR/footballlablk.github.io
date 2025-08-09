@@ -17,7 +17,7 @@ const Gallery: React.FC = () => {
   const images = [
     {
       id: 1,
-      src: '/images/championships/1.png',
+      src: `${process.env.PUBLIC_URL}/images/championships/1.png`,
       alt: 'Football match action',
       category: 'matches',
       title: 'Championship Final',
@@ -26,7 +26,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 2,
-      src: '/images/championships/2.png',
+      src: `${process.env.PUBLIC_URL}/images/championships/2.png`,
       alt: 'Football match action',
       category: 'matches',
       title: 'Championship Final',
@@ -35,7 +35,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 3,
-      src: '/images/training-photos/1.png',
+      src: `${process.env.PUBLIC_URL}/images/training-photos/1.png`,
       alt: 'Team training session',
       category: 'training',
       title: 'Morning Training',
@@ -44,7 +44,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 4,
-      src: '/images/team-photos/1.png',
+      src: `${process.env.PUBLIC_URL}/images/team-photos/1.png`,
       alt: 'Team group photo',
       category: 'team',
       title: 'Team Photo 2024',
@@ -53,7 +53,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 5,
-      src: '/images/team-photos/2.png',
+      src: `${process.env.PUBLIC_URL}/images/team-photos/2.png`,
       alt: 'Team group photo',
       category: 'team',
       title: 'Team Photo 2024',
@@ -62,7 +62,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 6,
-      src: '/images/team-photos/3.png',
+      src: `${process.env.PUBLIC_URL}/images/team-photos/3.png`,
       alt: 'Team group photo',
       category: 'team',
       title: 'Team Photo 2024',
@@ -71,7 +71,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 3,
-      src: '/images/team-photos/4.png',
+      src: `${process.env.PUBLIC_URL}/images/team-photos/4.png`,
       alt: 'Team group photo',
       category: 'team',
       title: 'Team Photo 2024',
@@ -80,7 +80,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 7,
-      src: '/images/team-photos/5.png',
+      src: `${process.env.PUBLIC_URL}/images/team-photos/5.png`,
       alt: 'Team group photo',
       category: 'team',
       title: 'Team Photo 2024',
@@ -89,7 +89,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 8,
-      src: '/images/cheering/1.png',
+      src: `${process.env.PUBLIC_URL}/images/cheering/1.png`,
       alt: 'Fans cheering',
       category: 'fans',
       title: 'Fan Support',
@@ -98,7 +98,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 9,
-      src: '/images/cheering/2.png',
+      src: `${process.env.PUBLIC_URL}/images/cheering/2.png`,
       alt: 'Fans cheering',
       category: 'fans',
       title: 'Fan Support',
@@ -107,7 +107,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 10,
-      src: '/images/cheering/3.png',
+      src: `${process.env.PUBLIC_URL}/images/cheering/3.png`,
       alt: 'Fans cheering',
       category: 'fans',
       title: 'Fan Support',
@@ -116,7 +116,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 11,
-      src: '/images/goal-celebration/1.png',
+      src: `${process.env.PUBLIC_URL}/images/goal-celebration/1.png`,
       alt: 'Goal celebration',
       category: 'matches',
       title: 'Goal Celebration',
@@ -125,7 +125,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 12,
-      src: '/images/skill-training/1.png',
+      src: `${process.env.PUBLIC_URL}/images/skill-training/1.png`,
       alt: 'Training drills',
       category: 'training',
       title: 'Skill Training',
@@ -134,7 +134,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 13,
-      src: '/images/skill-training/2.png',
+      src: `${process.env.PUBLIC_URL}/images/skill-training/2.png`,
       alt: 'Training drills',
       category: 'training',
       title: 'Skill Training',
@@ -143,7 +143,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 14,
-      src: '/images/skill-training/3.png',
+      src: `${process.env.PUBLIC_URL}/images/skill-training/3.png`,
       alt: 'Training drills',
       category: 'training',
       title: 'Skill Training',
@@ -152,7 +152,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 15,
-      src: '/images/skill-training/4.png',
+      src: `${process.env.PUBLIC_URL}/images/skill-training/4.png`,
       alt: 'Training drills',
       category: 'training',
       title: 'Skill Training',
@@ -161,7 +161,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 16,
-      src: '/images/skill-training/5.png',
+      src: `${process.env.PUBLIC_URL}/images/skill-training/5.png`,
       alt: 'Training drills',
       category: 'training',
       title: 'Skill Training',
@@ -170,7 +170,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 17,
-      src: '/images/skill-training/6.png',
+      src: `${process.env.PUBLIC_URL}/images/skill-training/6.png`,
       alt: 'Training drills',
       category: 'training',
       title: 'Skill Training',
@@ -179,7 +179,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 18,
-      src: '/images/skill-training/7.png',
+      src: `${process.env.PUBLIC_URL}/images/skill-training/7.png`,
       alt: 'Training drills',
       category: 'training',
       title: 'Skill Training',
@@ -188,7 +188,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 19,
-      src: '/images/skill-training/8.png',
+      src: `${process.env.PUBLIC_URL}/images/skill-training/8.png`,
       alt: 'Training drills',
       category: 'training',
       title: 'Skill Training',
@@ -197,7 +197,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 20,
-      src: '/images/skill-training/9.png',
+      src: `${process.env.PUBLIC_URL}/images/skill-training/9.png`,
       alt: 'Training drills',
       category: 'training',
       title: 'Skill Training',

@@ -17,7 +17,7 @@ const Gallery: React.FC = () => {
   const images = [
     {
       id: 1,
-      src: `${process.env.PUBLIC_URL}/images/championships/1.png`,
+      src: './images/championships/1.png',
       alt: 'Football match action',
       category: 'matches',
       title: 'Championship Final',

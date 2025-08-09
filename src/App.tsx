@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
@@ -22,7 +22,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/footballlablk.github.io">
+    <Router>
       <div className="App">
         <AnimatePresence mode="wait">
           {isLoading ? (

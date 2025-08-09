@@ -24,7 +24,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          PUBLIC_URL: https://dulanjar.github.io/footballlablk.github.io
+          PUBLIC_URL: https://dulanjar.github.io/footballlablk.github.io/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

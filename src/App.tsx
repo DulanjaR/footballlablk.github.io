@@ -22,7 +22,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/footballlablk.github.io">
+    <Router>
       <div className="App">
         <AnimatePresence mode="wait">
           {isLoading ? (

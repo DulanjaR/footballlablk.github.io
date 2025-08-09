@@ -2,7 +2,6 @@
   "name": "footballlablk",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dulanjar.github.io/footballlablk.github.io",
   "engines": {
     "node": ">=16.0.0"
   },

@@ -17,7 +17,7 @@ const Gallery: React.FC = () => {
   const images = [
     {
       id: 1,
-      src: './images/championships/1.png',
+      src: '/images/championships/1.png',
       alt: 'Football match action',
       category: 'matches',
       title: 'Championship Final',
@@ -26,7 +26,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 2,
-      src: `${process.env.PUBLIC_URL}/images/championships/2.png`,
+      src: '/images/championships/2.png',
       alt: 'Football match action',
       category: 'matches',
       title: 'Championship Final',
@@ -35,7 +35,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 3,
-      src: `${process.env.PUBLIC_URL}/images/training-photos/1.png`,
+      src: '/images/training-photos/1.png',
       alt: 'Team training session',
       category: 'training',
       title: 'Morning Training',
@@ -44,7 +44,7 @@ const Gallery: React.FC = () => {
     },
     {
       id: 4,
-      src: `${process.env.PUBLIC_URL}/images/team-photos/1.png`,
+      src: '/images/team-photos/1.png',
       alt: 'Team group photo',
       category: 'team',
       title: 'Team Photo 2024',

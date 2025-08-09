@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/footballlablk.github.io/static/css/main.fe7e03e1.css",
+    "main.js": "/footballlablk.github.io/static/js/main.50857052.js",
+    "index.html": "/footballlablk.github.io/index.html",
+    "main.fe7e03e1.css.map": "/footballlablk.github.io/static/css/main.fe7e03e1.css.map",
+    "main.50857052.js.map": "/footballlablk.github.io/static/js/main.50857052.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe7e03e1.css",
+    "static/js/main.50857052.js"
+  ]
+}

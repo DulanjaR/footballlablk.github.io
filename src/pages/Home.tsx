@@ -148,7 +148,7 @@ const Home: React.FC = () => {
                 }}
               >
                 <motion.img
-                  src={process.env.PUBLIC_URL + '/images/football.png'}
+                  src="/images/football.png"
                   alt="Football"
                   style={{
                     width: '100%',
